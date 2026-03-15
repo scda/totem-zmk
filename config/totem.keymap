@@ -75,10 +75,10 @@
 
         code_layer {
             bindings = <
-           &kp GRAVE  &kp AT          &kp HASH         &kp SQT          &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans        &trans         &kp N9        &kp STAR
-           &kp LBKT   &hml LALT RBKT  &hml LSHFT LPAR  &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION  &hmr RSHFT N5  &hmr RALT N6  &kp PLUS
-&kp CARET  &kp AMPS   &kp PIPE        &kp EXCL         &kp TILDE        &kp LBKT                &kp RBKT               &kp N1        &kp N2         &kp N3        &kp DOT   &kp PRCNT
-                                      &trans           &trans           &trans                  &kp COMMA              &trans        &kp BSLH
+        &trans  &trans  &trans  &trans          &kp LEFT_BRACE          &kp RIGHT_BRACE         &trans        &trans  &trans &trans
+        &trans  &trans  &trans  &kp EXCLAMATION &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS   &kp QUESTION  &trans  &trans &trans
+&trans  &trans  &trans  &trans  &trans          &kp LBKT                &kp RBKT                &trans        &trans  &trans &trans  &trans
+                        &trans  &trans          &trans                  &trans                  &trans        &trans
             >;
         };
 
