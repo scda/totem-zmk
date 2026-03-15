@@ -45,7 +45,7 @@
         compatible = "zmk,combos";
 
         lock_screen {
-            bindings = <&kp C_AL_LOCK>;
+            bindings = <&kp LG(LC(Q))>;
             key-positions = <20 31>;
         };
     };
