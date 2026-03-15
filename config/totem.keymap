@@ -68,6 +68,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <24 27>;
         };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <21 30>;
+        };
     };
 
     keymap {
