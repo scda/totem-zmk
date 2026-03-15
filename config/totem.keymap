@@ -98,7 +98,7 @@
 
         code_layer {
             bindings = <
-        &kp FSLH  &kp STAR       &kp MINUS       &kp PLUS         &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans            &kp GRAVE          &kp DOLLAR            &trans
+        &kp FSLH  &kp STAR       &kp MINUS       &kp PLUS         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp AT_SIGN       &kp GRAVE          &kp DOLLAR            &trans
         &trans    &kp HASH       &kp EQUAL       &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION      &kp DOUBLE_QUOTES  &kp PERCENT           &kp BACKSLASH
 &trans  &trans    &kp AMPERSAND  &kp UNDERSCORE  &kp LESS_THAN    &kp LBKT                &kp RBKT               &kp GREATER_THAN  &kp SINGLE_QUOTE   &kp LA(LS(NUMBER_2))  &trans         &trans
                                  &trans          &trans           &trans                  &trans                 &trans            &trans
