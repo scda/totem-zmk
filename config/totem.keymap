@@ -48,6 +48,26 @@
             bindings = <&kp LG(LC(Q))>;
             key-positions = <20 31>;
         };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <0 9>;
+        };
+
+        hypr {
+            bindings = <&sk LG(LS(LA(LCTRL)))>;
+            key-positions = <5 4>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <25 26>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <24 27>;
+        };
     };
 
     keymap {
