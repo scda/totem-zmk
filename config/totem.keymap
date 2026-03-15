@@ -57,10 +57,10 @@
 
         base_layer {
             bindings = <
-          &kp ESCAPE    &kp Z            &kp O            &kp F              &kp Y          &kp V          &kp G              &kp C            &kp L        &kp SLASH
-          &hml LCTRL H  &hml LEFT_ALT A  &hml LEFT_GUI E  &hml LEFT_SHIFT I  &kp U          &kp D          &hmr LEFT_SHIFT T  &hmr LEFT_GUI R  &hmr RALT N  &hmr RCTRL S
-&kp LBKT  &kp COMMA     &kp Q            &kp J            &kp K              &kp X          &kp B          &kp P              &kp W            &kp M        &kp PERIOD    &kp RBKT
-                                         &kp ESC          &lt CODE BSPC      &lt MOD TAB    &lt ADJ ENTER  &lt NAV SPACE      &kp LSHFT
+               &kp ESCAPE    &kp Z            &kp O            &kp F              &kp Y          &kp V            &kp G              &kp C            &kp L        &kp SLASH
+               &hml LCTRL H  &hml LEFT_ALT A  &hml LEFT_GUI E  &hml LEFT_SHIFT I  &kp U          &kp D            &hmr LEFT_SHIFT T  &hmr LEFT_GUI R  &hmr RALT N  &hmr RCTRL S
+&kp SEMICOLON  &kp COMMA     &kp Q            &kp J            &kp K              &kp X          &kp B            &kp P              &kp W            &kp M        &kp PERIOD    &none
+                                              &lt 1 BACKSPACE  &lt CODE SPACE     &lt MOD TAB    &lt ADJ LS(TAB)  &lt NAV ENTER      &kp LSHFT
             >;
         };
 
