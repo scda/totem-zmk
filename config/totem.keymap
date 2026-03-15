@@ -41,16 +41,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        combo_enye {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp RA(N)>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -75,10 +66,10 @@
 
         code_layer {
             bindings = <
-        &trans  &trans  &trans  &trans           &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans        &trans  &trans  &trans
-        &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &kp LBKT                &kp RBKT               &trans        &trans  &trans  &trans  &trans
-                        &trans  &trans           &trans                  &trans                 &trans        &trans
+        &kp FSLH  &kp STAR  &kp MINUS       &kp PLUS         &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans            &kp GRAVE          &kp DOLLAR            &trans
+        &trans    &trans    &kp EQUAL       &kp EXCLAMATION  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION      &kp DOUBLE_QUOTES  &kp PERCENT           &kp BACKSLASH
+&trans  &trans    &trans    &kp UNDERSCORE  &kp LESS_THAN    &kp LBKT                &kp RBKT               &kp GREATER_THAN  &kp SINGLE_QUOTE   &kp LA(LS(NUMBER_2))  &trans         &trans
+                            &trans          &trans           &trans                  &trans                 &trans            &trans
             >;
         };
 
