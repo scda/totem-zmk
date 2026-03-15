@@ -41,7 +41,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        lock_screen {
+            bindings = <&kp C_AL_LOCK>;
+            key-positions = <20 31>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
