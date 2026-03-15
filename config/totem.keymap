@@ -55,7 +55,7 @@
         };
 
         hypr {
-            bindings = <&sk LG(LS(LA(LCTRL)))>;
+            bindings = <&sk LA(LS(LG(LCTRL)))>;
             key-positions = <5 4>;
         };
 
