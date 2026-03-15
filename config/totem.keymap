@@ -57,10 +57,19 @@
 
         base_layer {
             bindings = <
-               &kp ESCAPE    &kp Z            &kp O            &kp F              &kp Y          &kp V            &kp G              &kp C            &kp L        &kp SLASH
-               &hml LCTRL H  &hml LEFT_ALT A  &hml LEFT_GUI E  &hml LEFT_SHIFT I  &kp U          &kp D            &hmr LEFT_SHIFT T  &hmr LEFT_GUI R  &hmr RALT N  &hmr RCTRL S
-&kp SEMICOLON  &kp COMMA     &kp Q            &kp J            &kp K              &kp X          &kp B            &kp P              &kp W            &kp M        &kp PERIOD    &none
-                                              &lt 1 BACKSPACE  &lt CODE SPACE     &lt MOD TAB    &lt ADJ LS(TAB)  &lt NAV ENTER      &kp LSHFT
+               &kp ESCAPE    &kp Z            &kp O            &kp F              &kp Y        &kp V          &kp G              &kp C            &kp L        &kp SLASH
+               &hml LCTRL H  &hml LEFT_ALT A  &hml LEFT_GUI E  &hml LEFT_SHIFT I  &kp U        &kp D          &hmr LEFT_SHIFT T  &hmr LEFT_GUI R  &hmr RALT N  &hmr RCTRL S
+&kp SEMICOLON  &kp COMMA     &kp Q            &kp J            &kp K              &kp X        &kp B          &kp P              &kp W            &kp M        &kp PERIOD    &none
+                                              &lt 2 BACKSPACE  &lt 2 SPACE        &lt 4 TAB    &lt 5 LS(TAB)  &lt 3 ENTER        &kp LSHFT
+            >;
+        };
+
+        num_layer {
+            bindings = <
+       &none  &none  &none  &none  &none    &none   &kp N7  &kp N8  &kp N9  &none
+       &none  &none  &none  &none  &none    &kp N0  &kp N4  &kp N5  &kp N6  &none
+&none  &none  &none  &none  &none  &none    &none   &kp N1  &kp N2  &kp N3  &none  &none
+                     &none  &none  &none    &none   &none   &none
             >;
         };
 
