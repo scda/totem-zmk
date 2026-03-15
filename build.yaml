@@ -3,4 +3,8 @@ include:
     shield: totem_left
   - board: xiao_ble
     shield: totem_right
-# there is no settingsreset (needed) for the XIAO
+  # settings_reset might be useful for bluetooth reset via firmware among others
+  # flash the settings_reset firmware before re-flashing the "real" firmware again
+  # see https://github.com/GEIGEIGEIST/TOTEM/issues/54
+  - board: xiao_ble
+    shield: settings_reset
