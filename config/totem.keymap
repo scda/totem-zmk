@@ -89,19 +89,19 @@
 
         num_layer {
             bindings = <
-        &trans    &trans        &trans        &trans          &trans    &trans  &kp N7  &kp N8  &kp N9  &kp N0
-        &kp LCTRL &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp COMMA
-&trans  &trans    &trans        &trans        &trans          &trans    &trans  &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
-                                &trans        &trans          &trans    &trans  &trans  &trans
+        &trans     &trans        &trans        &trans          &trans    &trans  &kp N7  &kp N8  &kp N9  &kp N0
+        &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &kp N4  &kp N5  &kp N6  &kp COMMA
+&trans  &trans     &trans        &trans        &trans          &trans    &trans  &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
+                                 &trans        &trans          &trans    &trans  &trans  &trans
             >;
         };
 
         fn_layer {
             bindings = <
-        &trans    &trans        &trans        &trans          &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F10
-        &kp LCTRL &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans    &trans        &trans        &trans          &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
-                                &trans        &trans          &trans    &trans  &trans  &trans 
+        &trans     &trans        &trans        &trans          &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F10
+        &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans     &trans        &trans        &trans          &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
+                                 &trans        &trans          &trans    &trans  &trans  &trans
             >;
         };
 
@@ -116,10 +116,10 @@
 
         nav_layer {
             bindings = <
-        &trans          &msc SCRL_UP    &mmv MOVE_UP    &mkp LCLK        &mkp RCLK          &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp DEL
-        &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp INS
-&trans  &trans          &msc SCRL_DOWN  &trans          &mkp MB4         &mkp MB5           &trans     &trans    &trans    &kp PSCRN  &kp K_UNDO  &trans
-                                        &trans          &kp LSHFT        &kp LCTRL          &trans     &trans    &trans
+        &trans  &trans          &msc SCRL_UP    &trans           &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans
+        &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans          &trans          &trans           &trans    &trans     &trans    &trans    &trans     &trans  &trans
+                                &trans          &trans           &trans    &trans     &trans    &trans
             >;
         };
 
